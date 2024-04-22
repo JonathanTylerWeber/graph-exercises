@@ -18,7 +18,7 @@ class Graph {
   // this function accepts an array of Node instances and adds them to the nodes property on the graph
   addVertices(vertexArray) {
     for (let vertex of vertexArray) {
-      this.addPerson(vertex);
+      this.addVertex(vertex);
     }
   }
 
